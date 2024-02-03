@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { NavContent } from './Components/nav.component';
+import { Logiccontent } from './Components/logic.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavContent
+    NavContent,
+    Logiccontent
   ],
   imports: [
     BrowserModule
